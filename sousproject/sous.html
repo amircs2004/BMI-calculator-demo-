@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="sous.css">
+    <title>demo BMI calculator</title>
+</head>
+<body>
+    <div class="container">
+       <h2> body mass index (BMI) calculator</h2>
+        <div>
+         <label for="height" class="height"> your height :</label>
+         <input type="text" class="height1" id="height1" placeholder="enter your height">
+        </div>
+        <div>
+          <label for="" class="weight" >weight :</label>
+          <input type="text" class=" weight1" id="weight1" placeholder="enter your weight">
+        </div>
+       <div id="button">
+         <button id="button" onclick="computeBMI()"> compute BMI</button>
+       </div>
+       <div>
+      <p class="result" id="result"> </p>
+    </div>
+    <p id="condition">-</p>
+
+</div>
+
+    <script src="./sous.js"></script>
+</body>
+</html>
